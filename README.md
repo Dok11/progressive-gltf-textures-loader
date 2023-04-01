@@ -17,6 +17,8 @@ connections.
 This feature offers a smoother user experience and reduces the loading time
 before the model is ready to use.
 
+![ProgressiveGltfTexturesLoader](https://user-images.githubusercontent.com/2697890/229309845-5cc6b27e-439c-49e8-bd74-82aa78d4924a.gif)
+
 ## Installation
 
 ```bash
