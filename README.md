@@ -45,6 +45,9 @@ SceneLoader.RegisterPlugin(new ProgressiveGltfTexturesLoader({
   }
 }));
 
+// Get the loader instance
+const gltfLoader = SceneLoader.GetPluginForExtension('.gltf') as ProgressiveGltfTexturesLoader;
+
 // Load the model
 SceneLoader.Append('https://www.babylonjs.com/Assets/DamagedHelmet/glTF/', 'DamagedHelmet.gltf', this.scene, scene => {
   // Init progressive loading for each mesh
